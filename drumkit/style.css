@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding :0;
+}
+
+body{
+    background-image: url(BG.jpeg);
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.key{
+    font-size:2rem;
+    color:white;
+    border:0.2rem solid RGBA(0,0,0,0.9);
+    width:8rem;
+   
+    border-radius:15px;
+    justify-content: center;
+    text-align: center;
+    background: rgba(0,0,0,0.4);
+    box-shadow: 0 1 1rem black;
+    margin:1rem;
+    padding:1 rem 1 rem
+}
+
+.playing{
+    transform:scale(1.1);
+    border-color:cyan;
+    box-shadow:0 0 2rem cyan;
+}
